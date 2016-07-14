@@ -213,8 +213,7 @@ nav {
 	color: #2196f3;
 }
 
-.owl-item {	width: 192px !important;}
-.items-logo img {width: 145px;}
+.items-logo img { width: 145px; }
 
 .customNavigation{  text-align: center; }
 //use styles below to disable ugly selection
@@ -302,11 +301,11 @@ nav {
 	font-size: 30px;
 }
 .owl-buttons .owl-next {
-	right: -45px;
+	right: -20px;
 	top: 25%;
 }
 .owl-buttons .owl-prev {
-	left: -30px;
+	left: -20px;
 	top: 25%;
 }
 
@@ -334,19 +333,46 @@ nav {
 	box-sizing: border-box;
 }
 
-.footer-links { margin: 0 auto; }
 
-.footer-links div {
-	float: left;
+
+.footer-links {
 	padding: 0 15px;
-	margin: ;
+	display: inline-block;
+
 }
 
-.footer-links div a {
+.footer-links li {
+	display: inline-block;
 	text-decoration: underline;
-	 color: ;
+	 color: #80a6d0;
+	 padding: 0 10px;
+	 	text-align: center;
 }
 
+.footer-links li a:hover {
+	color: white;
+}
 .dropdown a{
 	padding-left: 7px;
+}
+
+.footer-menu {
+	padding: 55px 0;
+	text-align: center;
+	font-size: 17px;
+}
+
+
+@media screen and (max-width: 990px) {
+	.left-menu {
+		display: none;
+	}
+	.footer-menu{
+		padding: 0;
+	}
+}
+
+.footer-logo {
+	padding: 30px 0;
+	text-align: center;
 }
